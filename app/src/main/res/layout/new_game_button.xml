@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/new_game_button"
+    android:textColor="#202138"
+    android:textSize="30sp"
+    android:src="@drawable/new_game"
+
+    android:onClick="onNewGameButtonClicked"
+
+    android:layout_width="170dp"
+    android:layout_height="50dp"
+    android:background="@drawable/button_shape"
+    android:shadowColor="#A8A8A8"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5">
+
+</ImageButton>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shape="oval">
+
+            <solid
+                android:color="#6EAFFF"/>
+
+            <size
+                android:height="270dp"
+                android:width="270dp"/>
+
+            <stroke
+                android:width="3dp"
+                android:color="#FF5722" />
+
+        </shape>
+    </item>
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shape="oval">
+
+            <solid
+                android:color="#FF5722"/>
+
+            <size
+                android:height="270dp"
+                android:width="270dp"/>
+
+            <stroke
+                android:width="3dp"
+                android:color="#6EAFFF" />
+
+        </shape>
+    </item>
+</selector>
